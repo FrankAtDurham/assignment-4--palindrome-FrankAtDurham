@@ -27,3 +27,6 @@ def test_step_6():
 def test_step_7():
     """Testing Step 7 """
     palindrome.is_palindrome("toronto")
+def test_step_8():
+    """Testing Step 8 """
+    palindrome.is_palindrome("Able was I ere I saw Elba")

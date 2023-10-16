@@ -9,7 +9,8 @@ def is_palindrome(value):
     elif len(value) == 0:
         print("False")
     else:
-        original = deque(value)
+        value_lower = value.lower()         # need to change everything to lower case for comparison
+        original = deque(value_lower)
         pal = deque()
         for val in original:
             pal.appendleft(val)
