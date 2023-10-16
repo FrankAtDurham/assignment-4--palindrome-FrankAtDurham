@@ -7,4 +7,6 @@ def is_palindrome(value):
         assert ValueError
     elif len(value) == 0:
         print("False")
+    else:
+        print("True")
 
