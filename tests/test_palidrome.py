@@ -18,3 +18,6 @@ def test_step_3():
 def test_step_4():
     """Testing Step 4  """
     palindrome.is_palindrome("bb")
+def test_step_5():
+    """Testing Step 5 """
+    palindrome.is_palindrome("abc")
