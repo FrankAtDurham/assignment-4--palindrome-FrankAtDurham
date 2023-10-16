@@ -3,5 +3,7 @@ assignment 4 palindrome
 """
 
 def is_palindrome(value):
-    if len(value) == 0:
+    if isinstance(test_string, str) != True:
         assert ValueError
+
+
