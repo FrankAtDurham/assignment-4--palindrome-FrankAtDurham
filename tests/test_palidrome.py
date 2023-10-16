@@ -24,3 +24,6 @@ def test_step_5():
 def test_step_6():
     """Testing Step 6 """
     palindrome.is_palindrome("laval")
+def test_step_7():
+    """Testing Step 7 """
+    palindrome.is_palindrome("toronto")
