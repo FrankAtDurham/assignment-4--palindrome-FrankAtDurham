@@ -3,7 +3,8 @@ assignment 4 palindrome
 """
 
 def is_palindrome(value):
-    if isinstance(test_string, str) != True:
+    if isinstance(value, str) != True:
         assert ValueError
-
+    elif len(value) == 0:
+        print("False")
 
